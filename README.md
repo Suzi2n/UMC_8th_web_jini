@@ -1,1 +1,1 @@
-# UMC_8th_web_sujin
+# UMC_8th_web_jini
