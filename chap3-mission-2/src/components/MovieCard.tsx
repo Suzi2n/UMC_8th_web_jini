@@ -13,7 +13,7 @@ export default function MovieCard({movie} : MovieCardProps) {
 
     return (
     <div 
-    onClick={(): void | Promise<void> => navigate(`/movies/now_playing/${movie.id}`)} //영화 클릭 시 상세 페이지로 이동
+        onClick={(): void | Promise<void> => navigate(`/movie/${movie.id}`)}
         className='relative rounded-xl shadow-lg overflow-hidden cursor-pointer w-44 transition-transform duration-300 hover:scale-105'
         onMouseEnter={(): void => setIsHovered(true)}
         onMouseLeave={(): void => setIsHovered(false)}
